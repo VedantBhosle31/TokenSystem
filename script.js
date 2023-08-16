@@ -1,8 +1,14 @@
 let TokenQueue = [];
 function FetchData() {
-    temp = document.cookie.split(';');
-    TokenQueue = temp[1].split(',');
-    Build();
+    try {
+        temp = document.cookie.split(';');
+        TokenQueue = temp[1].split(',');
+        Build();
+
+    } catch (error) {
+        TokenQueue = document.cookie.split(',');
+        Build();
+    }
 }
 function Update() {
     let Remove = document.getElementById("Remove").value;
