@@ -11,7 +11,7 @@ function Update() {
 
     // console.log(Remove, Add, High)
     // console.log(typeof (Remove))
-    // console.log(Remove.length)
+    // console.log(Remove.length) 
     // console.log(!Remove) 
     RemoveToken(Remove);
     AddToken(Add);

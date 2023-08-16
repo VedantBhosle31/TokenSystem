@@ -11,18 +11,18 @@
 </head>
 
 <body onload="FetchData();">
-    <h1 id="CurrentToken"></h1>
-    <h1 id="UpcomingToken"></h1>
-    <h1 id="HighestTower"></h1>
+    <h1 id="CurrentToken" class="currenttk"></h1>
+    <h1 id="UpcomingToken" class="upcomingtk"></h1>
+    <h1 id="HighestTower" class="highesttwr"></h1>
     <div>
 
-        <form>
+        <form class="tknform">
             <label for="Remove">Token to be Removed</label>
-            <input type="text" name="Remove" id="Remove" on>
+            <input type="text" class="inputfld" name="Remove" id="Remove" on>
             <label for="Add">Token to be added </label>
-            <input type="text" name="Add" id="Add">
+            <input type="text" class="inputfld" name="Add" id="Add">
             <label for="Highest">Highest</label>
-            <input type="text" name="Highest" id="Highest"><br>
+            <input type="text" class="inputfld" name="Highest" id="Highest"><br>
             <button type="reset" onclick="Update();" class="btn"> Update </button>
         </form>
     </div>
