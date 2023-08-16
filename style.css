@@ -8,35 +8,65 @@
 }
 
 .tknform {
-    background-color: aliceblue;
+   
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 50px;
 }
 
 
-.inputfld {
-    height: 40px;
-    width: 200px;
-    border-radius: 20px;
-    border: none;
-    outline: none;
-    border-style: none;
-    padding-left: 5px;
+.form-control
+{
+    border-radius: 50vh;
 }
 
-label {
-    margin-top: 10px;
+
+.btn-primary
+{
+    border-radius: 50vh;
+}
+
+.livedata
+{
+    display: flex;
+    height: fit-content;
+    justify-content: center;
+}
+
+.card
+{
+    margin: 40px;
+    
+    width: 400px;
+}
+
+.card-header
+{
+    font-weight:bold;
+}
+
+.navbar-brand
+{
+    margin: 20px;
+    margin-bottom: -110px;
+    
+
+}
+
+.tslogo
+{
     font-size: small;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 900;
+    font-weight: bold;
+    color: gray;
 }
 
-button {
-    height: 40px;
-    width: 80px;
-    border-radius: 20px;
-    border: none;
-    background-color: white;
-    font-size: 12px;
+.wm
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 20px;
+    font-weight: 500;
+    font-size: small;
 }

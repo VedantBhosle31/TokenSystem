@@ -54,8 +54,8 @@ function RemoveToken(Remove) {
 function Build() {
     current = TokenQueue.slice(0, 5)
     upcoming = TokenQueue.slice(5, 10)
-    document.getElementById("CurrentToken").innerHTML = "Ongoing Token " + current
-    document.getElementById("UpcomingToken").innerHTML = "Upcoming Token " + upcoming
+    document.getElementById("CurrentToken").innerHTML = current
+    document.getElementById("UpcomingToken").innerHTML = upcoming
 
     document.cookie = TokenQueue
 
@@ -63,7 +63,7 @@ function Build() {
 function Highest(num) {
     console.log("This is num =" + num + ".")
     if (num) {
-        document.getElementById("HighestTower").innerHTML = "Highest Tower Tonight " + num;
+        document.getElementById("HighestTower").innerHTML = num;
         console.log("Highest added")
 
     }
